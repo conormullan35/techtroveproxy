@@ -1,0 +1,25 @@
+{
+  "name": "shopifynode",
+  "version": "1.0.0",
+  "description": "proxy to hit a third party vehicle reg api",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cmullan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.6.1",
+    "cookie": "^0.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "nodemon": "^3.1.7",
+    "nonce": "^1.0.4",
+    "querystring": "^0.2.1",
+    "request-promise": "^4.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
